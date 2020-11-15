@@ -1,0 +1,62 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Clojure PostgreSQL REST API",
+		"_postman_id": "14cb40ff-9aa3-5194-35a4-3f43dafe77f3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"url": "http://localhost:3000/teachers",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST 1",
+			"request": {
+				"url": "http://localhost:3000/teachers",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Aparecido\",\n\t\"class\" : \"Linguagens Funcionais\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST 2",
+			"request": {
+				"url": "http://localhost:3000/teachers",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Tiago\",\n\t\"class\" : \"Ciência de dados\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,3 +1,5 @@
+O projeto consome apenas uma tabela para fins de demonstração de conexão, consumo e envio de dados para um database PostgreSQL.
+
 Inicializar web service:
 - O projeto foi feito utilizando o automatizador de projetos Clojure Leiningen
 - basta rodar lein run na pasta root do projeto
@@ -14,3 +16,9 @@ Iniciar banco de dados Postgres SQL 13:
 
 Obs: Caso em alguma das requisições o Postgres avise sobre erro em tipo de autenticação, navegar até as pastas C:\Program Files\PostgreSQL\13\data (exemplo), abrir o arquivo
 ph_hba.conf e trocar o METHOD para trust na linha de conexões locals IPv4
+
+Exemplo de payload para o método POST:
+{
+	"name": "Aparecido",
+	"class" : "Linguagens Funcionais"
+}
