@@ -1,6 +1,6 @@
 # pg-rest
 
-Projeto realizado para a disciplina Linguagens Funcionais do 5° ano de Engenharia da Computação do IMT - Instituto Mauá de Tecnologia
+Projeto realizado para a disciplina Linguagens Funcionais do 5° ano de Engenharia da Computação do IMT - Instituto Mauá de Tecnologia\
 Aulas ministradas pelo Prof. Aparecido Freitas
 
 <b>Alunos:</b>\
